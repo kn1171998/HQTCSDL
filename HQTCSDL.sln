@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQTCSDL", "HQTCSDL\HQTCSDL.csproj", "{D5411182-8FF9-462B-A411-F2804A39AC49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5411182-8FF9-462B-A411-F2804A39AC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5411182-8FF9-462B-A411-F2804A39AC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5411182-8FF9-462B-A411-F2804A39AC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5411182-8FF9-462B-A411-F2804A39AC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E85FCB1-741A-4163-9A87-550460960B90}
+	EndGlobalSection
+EndGlobal

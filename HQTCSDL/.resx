@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TNP_BoTri.Caption" xml:space="preserve">
+    <value>Bố trí</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 378</value>
+  </data>
+  <data name="listView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 161</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;listView2.Name" xml:space="preserve">
+    <value>listView2</value>
+  </data>
+  <data name="&gt;&gt;listView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView2.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;listView2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 159</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 159</value>
+  </data>
+  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="simpleButton2.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
+    <value>simpleButton2</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="simpleButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 159</value>
+  </data>
+  <data name="simpleButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="simpleButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="simpleButton3.Text" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Name" xml:space="preserve">
+    <value>simpleButton3</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 110</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 70</value>
+  </data>
+  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
+    <value>comboBox2</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 31</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_SoLuong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 110</value>
+  </data>
+  <data name="lbl_SoLuong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lbl_SoLuong.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_SoLuong.Text" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="&gt;&gt;lbl_SoLuong.Name" xml:space="preserve">
+    <value>lbl_SoLuong</value>
+  </data>
+  <data name="&gt;&gt;lbl_SoLuong.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbl_SoLuong.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;lbl_SoLuong.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_VatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 73</value>
+  </data>
+  <data name="lbl_VatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lbl_VatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_VatTu.Text" xml:space="preserve">
+    <value>Vật tư</value>
+  </data>
+  <data name="&gt;&gt;lbl_VatTu.Name" xml:space="preserve">
+    <value>lbl_VatTu</value>
+  </data>
+  <data name="&gt;&gt;lbl_VatTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbl_VatTu.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;lbl_VatTu.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_Loai.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
+  <data name="lbl_Loai.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lbl_Loai.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_Loai.Text" xml:space="preserve">
+    <value>Loại phòng</value>
+  </data>
+  <data name="&gt;&gt;lbl_Loai.Name" xml:space="preserve">
+    <value>lbl_Loai</value>
+  </data>
+  <data name="&gt;&gt;lbl_Loai.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbl_Loai.Parent" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;lbl_Loai.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TNP_BoTri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 539</value>
+  </data>
+  <data name="&gt;&gt;TNP_BoTri.Name" xml:space="preserve">
+    <value>TNP_BoTri</value>
+  </data>
+  <data name="&gt;&gt;TNP_BoTri.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TabNavigationPage, DevExpress.XtraBars.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TNP_BoTri.Parent" xml:space="preserve">
+    <value>TP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;TNP_BoTri.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TNP_VatTu.Caption" xml:space="preserve">
+    <value>Vật tư</value>
+  </data>
+  <data name="ltv_VatTu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ltv_VatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 391</value>
+  </data>
+  <data name="ltv_VatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 148</value>
+  </data>
+  <data name="ltv_VatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ltv_VatTu.Name" xml:space="preserve">
+    <value>ltv_VatTu</value>
+  </data>
+  <data name="&gt;&gt;ltv_VatTu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltv_VatTu.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;ltv_VatTu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_TenVatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 123</value>
+  </data>
+  <data name="txt_TenVatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 21</value>
+  </data>
+  <data name="txt_TenVatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_TenVatTu.Name" xml:space="preserve">
+    <value>txt_TenVatTu</value>
+  </data>
+  <data name="&gt;&gt;txt_TenVatTu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_TenVatTu.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;txt_TenVatTu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_MaVatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 84</value>
+  </data>
+  <data name="txt_MaVatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 21</value>
+  </data>
+  <data name="txt_MaVatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_MaVatTu.Name" xml:space="preserve">
+    <value>txt_MaVatTu</value>
+  </data>
+  <data name="&gt;&gt;txt_MaVatTu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MaVatTu.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;txt_MaVatTu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Sua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 178</value>
+  </data>
+  <data name="btn_Sua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Sua.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Sua.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Name" xml:space="preserve">
+    <value>btn_Sua</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Xoa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 178</value>
+  </data>
+  <data name="btn_Xoa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Xoa.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Xoa.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Name" xml:space="preserve">
+    <value>btn_Xoa</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_Them.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 178</value>
+  </data>
+  <data name="btn_Them.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Them.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Them.Text" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Name" xml:space="preserve">
+    <value>btn_Them</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_TenVatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 123</value>
+  </data>
+  <data name="lbl_TenVatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lbl_TenVatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_TenVatTu.Text" xml:space="preserve">
+    <value>Tên vật tư</value>
+  </data>
+  <data name="&gt;&gt;lbl_TenVatTu.Name" xml:space="preserve">
+    <value>lbl_TenVatTu</value>
+  </data>
+  <data name="&gt;&gt;lbl_TenVatTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbl_TenVatTu.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;lbl_TenVatTu.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_MaVatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 91</value>
+  </data>
+  <data name="lbl_MaVatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lbl_MaVatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_MaVatTu.Text" xml:space="preserve">
+    <value>Mã vật tư:</value>
+  </data>
+  <data name="&gt;&gt;lbl_MaVatTu.Name" xml:space="preserve">
+    <value>lbl_MaVatTu</value>
+  </data>
+  <data name="&gt;&gt;lbl_MaVatTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbl_MaVatTu.Parent" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;lbl_MaVatTu.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TNP_VatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 539</value>
+  </data>
+  <data name="&gt;&gt;TNP_VatTu.Name" xml:space="preserve">
+    <value>TNP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;TNP_VatTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TabNavigationPage, DevExpress.XtraBars.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TNP_VatTu.Parent" xml:space="preserve">
+    <value>TP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;TNP_VatTu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TP_VatTu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TP_VatTu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TP_VatTu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 566</value>
+  </data>
+  <data name="TP_VatTu.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="TP_VatTu.Text" xml:space="preserve">
+    <value>tabPane1</value>
+  </data>
+  <data name="&gt;&gt;TP_VatTu.Name" xml:space="preserve">
+    <value>TP_VatTu</value>
+  </data>
+  <data name="&gt;&gt;TP_VatTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TabPane, DevExpress.XtraBars.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TP_VatTu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TP_VatTu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>111</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>596, 566</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 300</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MainForm1</value>
+  </data>
+  <data name="&gt;&gt;actionContainerObjectsCreation.Name" xml:space="preserve">
+    <value>actionContainerObjectsCreation</value>
+  </data>
+  <data name="&gt;&gt;actionContainerObjectsCreation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFile.Name" xml:space="preserve">
+    <value>actionContainerFile</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFile.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerSave.Name" xml:space="preserve">
+    <value>actionContainerSave</value>
+  </data>
+  <data name="&gt;&gt;actionContainerSave.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerPrint.Name" xml:space="preserve">
+    <value>actionContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;actionContainerPrint.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerExport.Name" xml:space="preserve">
+    <value>actionContainerExport</value>
+  </data>
+  <data name="&gt;&gt;actionContainerExport.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerExit.Name" xml:space="preserve">
+    <value>actionContainerExit</value>
+  </data>
+  <data name="&gt;&gt;actionContainerExit.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerUndoRedo.Name" xml:space="preserve">
+    <value>actionContainerUndoRedo</value>
+  </data>
+  <data name="&gt;&gt;actionContainerUndoRedo.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerEdit.Name" xml:space="preserve">
+    <value>actionContainerEdit</value>
+  </data>
+  <data name="&gt;&gt;actionContainerEdit.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerRecordEdit.Name" xml:space="preserve">
+    <value>actionContainerRecordEdit</value>
+  </data>
+  <data name="&gt;&gt;actionContainerRecordEdit.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerWorkflow.Name" xml:space="preserve">
+    <value>actionContainerWorkflow</value>
+  </data>
+  <data name="&gt;&gt;actionContainerWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerOpenObject.Name" xml:space="preserve">
+    <value>actionContainerOpenObject</value>
+  </data>
+  <data name="&gt;&gt;actionContainerOpenObject.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerPanels.Name" xml:space="preserve">
+    <value>actionContainerPanels</value>
+  </data>
+  <data name="&gt;&gt;actionContainerPanels.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerViewsHistoryNavigation.Name" xml:space="preserve">
+    <value>actionContainerViewsHistoryNavigation</value>
+  </data>
+  <data name="&gt;&gt;actionContainerViewsHistoryNavigation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerViewsNavigation.Name" xml:space="preserve">
+    <value>actionContainerViewsNavigation</value>
+  </data>
+  <data name="&gt;&gt;actionContainerViewsNavigation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerRecordsNavigation.Name" xml:space="preserve">
+    <value>actionContainerRecordsNavigation</value>
+  </data>
+  <data name="&gt;&gt;actionContainerRecordsNavigation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerView.Name" xml:space="preserve">
+    <value>actionContainerView</value>
+  </data>
+  <data name="&gt;&gt;actionContainerView.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerReports.Name" xml:space="preserve">
+    <value>actionContainerReports</value>
+  </data>
+  <data name="&gt;&gt;actionContainerReports.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerDefault.Name" xml:space="preserve">
+    <value>actionContainerDefault</value>
+  </data>
+  <data name="&gt;&gt;actionContainerDefault.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerSearch.Name" xml:space="preserve">
+    <value>actionContainerSearch</value>
+  </data>
+  <data name="&gt;&gt;actionContainerSearch.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFilters.Name" xml:space="preserve">
+    <value>actionContainerFilters</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFilters.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFullTextSearch.Name" xml:space="preserve">
+    <value>actionContainerFullTextSearch</value>
+  </data>
+  <data name="&gt;&gt;actionContainerFullTextSearch.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerTools.Name" xml:space="preserve">
+    <value>actionContainerTools</value>
+  </data>
+  <data name="&gt;&gt;actionContainerTools.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerOptions.Name" xml:space="preserve">
+    <value>actionContainerOptions</value>
+  </data>
+  <data name="&gt;&gt;actionContainerOptions.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerDiagnostic.Name" xml:space="preserve">
+    <value>actionContainerDiagnostic</value>
+  </data>
+  <data name="&gt;&gt;actionContainerDiagnostic.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerAbout.Name" xml:space="preserve">
+    <value>actionContainerAbout</value>
+  </data>
+  <data name="&gt;&gt;actionContainerAbout.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerMenu.Name" xml:space="preserve">
+    <value>actionContainerMenu</value>
+  </data>
+  <data name="&gt;&gt;actionContainerMenu.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerWindows.Name" xml:space="preserve">
+    <value>actionContainerWindows</value>
+  </data>
+  <data name="&gt;&gt;actionContainerWindows.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;actionContainerNotifications.Name" xml:space="preserve">
+    <value>actionContainerNotifications</value>
+  </data>
+  <data name="&gt;&gt;actionContainerNotifications.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barChooseSkinActionControl.Name" xml:space="preserve">
+    <value>barChooseSkinActionControl</value>
+  </data>
+  <data name="&gt;&gt;barChooseSkinActionControl.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarChooseSkinActionControl, DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>
